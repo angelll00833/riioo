@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #1e323d;
+    --accent-color: #d4a359;
+    --bg-color: #f4f6f8;
+    --card-bg: #ffffff;
+    --text-main: #2b3a42;
+    --text-muted: #5c6e75;
+    --border-color: #cbd6db;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.85;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: #2a5a75;
+    text-underline-offset: 4px;
+    overflow-wrap: anywhere;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
